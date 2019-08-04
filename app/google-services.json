@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "870615932358",
+    "firebase_url": "https://danger-alarm.firebaseio.com",
+    "project_id": "danger-alarm",
+    "storage_bucket": "danger-alarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870615932358:android:c90bb689f4df20d2",
+        "android_client_info": {
+          "package_name": "com.tungvuong.dangeralarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870615932358-n2o96tpmp6rslm3lveio3pcobjon6m4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tungvuong.dangeralarm",
+            "certificate_hash": "21a71a525f4c5b8d29efb7add5c506499591b7d7"
+          }
+        },
+        {
+          "client_id": "870615932358-3l1b9nhjb64sfd1qs5qoqemjmjje4dv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApWntTIP4yG4AS5UH2mhP8H8jriC4X_50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870615932358-3l1b9nhjb64sfd1qs5qoqemjmjje4dv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

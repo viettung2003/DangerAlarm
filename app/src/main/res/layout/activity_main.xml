@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#024A74"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tua1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại khẩn cấp:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tua2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chụp hình tình hình hiện tại:"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginTop="325dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tua3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yêu cầu trợ giúp trên mạng xã hội:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tua4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Báo cho những người xung quanh biết:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="550dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/mota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn sẽ được cho tối đa là 4 số để gọi khi cần thiết"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/mota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi tin nhắn khẩn cấp sẽ gửi một tin nhắn SMS yêu cầu trợ giúp kèm theo vị trí bạn đang đứng đến 4 số trên"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"/>
+    <TextView
+        android:id="@+id/mota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng sẽ gửi tin nhắn yêu cầu trợ giúp kèm theo đó là vị trí bạn đang đứng qua MXH bạn đã chọn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1."
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2."
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="95dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3."
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="125dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4."
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="155dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/so1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/so2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="95dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/so3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="125dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/so4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="155dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/them1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="60dp"
+        android:textSize="14dp"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/goi1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="60dp"
+        android:textSize="14dp"
+        android:text="Gọi" />
+
+    <Button
+        android:id="@+id/them2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="90dp"
+        android:textSize="14dp"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/goi2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="90dp"
+        android:textSize="14dp"
+        android:text="Gọi" />
+
+    <Button
+        android:id="@+id/them3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="120dp"
+        android:textSize="14dp"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/goi3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="120dp"
+        android:textSize="14dp"
+        android:text="Gọi" />
+
+    <Button
+        android:id="@+id/them4"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"
+        android:textSize="14dp"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/goi4"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="150dp"
+        android:textSize="14dp"
+        android:text="Gọi" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:textSize="14dp"
+        android:text="Gửi tin nhắn khẩn cấp" />
+    <Button
+        android:id="@+id/cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:textSize="14dp"
+        android:text="Chụp hình lại" />
+    <Button
+        android:id="@+id/goi113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:textSize="14dp"
+        android:text="Cảnh sát" />
+    <Button
+        android:id="@+id/bao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:textSize="14dp"
+        android:layout_marginTop="580dp"
+        android:text="Bằng âm thanh" />
+    <Button
+        android:id="@+id/chat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="580dp"
+        android:textSize="14dp"
+        android:text="Bằng kênh chat" />
+    <Button
+        android:id="@+id/chat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:textSize="14dp"
+        android:layout_marginTop="670dp"
+        android:text="Mở kênh chat của app" />
+
+    <Button
+        android:id="@+id/goi114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="260dp"
+        android:textSize="14dp"
+        android:text="Cứu hỏa" />
+    <Button
+        android:id="@+id/goi115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="260dp"
+        android:textSize="14dp"
+        android:text="Cấp cứu" />
+
+    <Button
+        android:id="@+id/fb"
+        android:background="@drawable/button_facebook"
+        android:text="Facebook"
+        android:textColor="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/tw"
+        android:textSize="20dp"
+        android:background="@drawable/button_twitter"
+        android:text="Twitter"
+        android:textColor="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="220dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
